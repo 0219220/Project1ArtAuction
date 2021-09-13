@@ -1,0 +1,54 @@
+@font-face {
+    font-family:Monoton;
+    src: url(fonts/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: AbrilFatface;
+    src: url(fonts/AbrilFatface-Regular.ttf);
+}
+.body{
+   background-color: rgb(221, 221, 200);
+   padding-top: 10px;
+
+}
+.piece{
+    position: static;
+color: cyan;
+}
+
+
+.piecetitle{
+    font-size: 50px;
+    color: whitesmoke;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Monoton';
+}
+
+.pieceartist{
+    size: 15px;
+    color: lightgray;
+}  
+
+.price{
+    size: 10;
+    color: black;
+    font-style: italic; 
+}
+
+.full-image{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.body-text{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:20px;
+    color: whitesmoke;
+    font-family: 'AbrilFatface';
+}
+
